@@ -2,7 +2,7 @@
 
 This repository contains a diagram generated to explain the learning path for Ruby programming language.
 
-The diagram was described in a talk for the communities: [@oaxacarb](/oaxacarb/) and [@oaxacoders](/oaxacoders/).
+The diagram was described in a talk for the communities: [@oaxacarb](https://github.com/oaxacarb) and [@oaxacoders](https://github.com/oaxacoders).
 
 Slides as reference (Spanish): [Ruby: Ruta de aprendizaje. De básico a avanzado](https://docs.google.com/presentation/d/1EKWlTLFVOVQSNadEB4QxLoj3B2sVT_fxoEbYOW_CqBs/edit?usp=sharing)
 
