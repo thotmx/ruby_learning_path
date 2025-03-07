@@ -1,0 +1,43 @@
+sequenceDiagram
+    box LightBlue Ruby Route
+     participant D as Dev Path
+     participant Ruby
+    end
+    participant Rails
+    participant Ruby Tools
+    participant OOPD as OOP Design
+    participant General
+    participant General Tools
+D-->>General: [Book: The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
+D-->>General Tools: [Git](https://ohmygit.org/)
+General Tools-->>D: [Git](https://ohmygit.org/)
+D->>+Ruby: [Video Course: Pragmatic Studio: Ruby](https://pragmaticstudio.com/courses/ruby)
+General-->>D: [Book: The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
+D->>Ruby Tools: [Book: Effective Testing with RSpec 3](https://pragprog.com/titles/rspec3/effective-testing-with-rspec-3/)
+D-->>General: [Book: HTML and CSS Quickstart Guide](https://www.blinkist.com/en/books/html-and-css-quickstart-guide-en)
+General-->>D: [Book: HTML and CSS Quickstart Guide](https://www.blinkist.com/en/books/html-and-css-quickstart-guide-en)
+D->>Rails: [Video Course: Pragmatic Studio: Rails](https://pragmaticstudio.com/rails)
+D->>Rails: [Book: Agile Web Development with Rails 8](https://pragprog.com/titles/rails8/agile-web-development-with-rails-8/)
+Ruby->>+D: [Video Course: Pragmatic Studio: Ruby](https://pragmaticstudio.com/courses/ruby)
+Note right of D: Here you have an Intermediate Ruby Level!
+%% Intermediate
+D->>OOPD: [Book: Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/)
+D->>OOPD: [Book: Clean Code](https://www.oreilly.com/library/view/clean-code-a/9780136083238/)
+D->>OOPD: [Book: Refactoring Ruby Edition](https://martinfowler.com/books/refactoringRubyEd.html)
+Ruby->>+D: [Video Course: Pragmatic Studio: Ruby Blocks](https://pragmaticstudio.com/ruby-blocks)
+D->>+Ruby: [Video Course: Pragmatic Studio: Ruby Blocks](https://pragmaticstudio.com/ruby-blocks)
+D->>OOPD: [Book: Practical Object-Oriented Design in Ruby](https://www.poodr.com/)
+Ruby Tools->>D: [Book: Effective Testing with RSpec 3](https://pragprog.com/titles/rspec3/effective-testing-with-rspec-3/)
+Rails->>D: [Book: Agile Web Development with Rails 8](https://pragprog.com/titles/rails8/agile-web-development-with-rails-8/)
+Rails->>D: [Video Course: Pragmatic Studio: Rails](https://pragmaticstudio.com/rails)
+OOPD->>D: [Book: Clean Code](https://www.oreilly.com/library/view/clean-code-a/9780136083238/)
+OOPD->>D: [Book: Refactoring Ruby Edition ](https://martinfowler.com/books/refactoringRubyEd.html)
+OOPD->>D: [Book: Practical Object-Oriented Design in Ruby](https://www.poodr.com/)
+D->>Rails: [Crafting Rails 4 Applications](https://pragprog.com/titles/jvrails2/crafting-rails-4-applications/)
+D->>Ruby: [Book: Metaprogramming Ruby 2](https://pragprog.com/titles/ppmetr2/metaprogramming-ruby-2/)
+OOPD->>D: [Book: Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/)
+Note right of D: Here you have an Advanced Ruby level
+Ruby->>D: [Book: Metaprogramming Ruby 2](https://pragprog.com/titles/ppmetr2/metaprogramming-ruby-2/)
+Rails->>D: [Crafting Rails 4 Applications](https://pragprog.com/titles/jvrails2/crafting-rails-4-applications/)
+D->>Ruby: [Book: Ruby under a microscope](https://patshaughnessy.net/ruby-under-a-microscope)
+Ruby->>D: [Book: Ruby under a microscope](https://patshaughnessy.net/ruby-under-a-microscope)
